@@ -14,7 +14,8 @@ gem 'jquery-rails'
 
 gem 'activeadmin', github: 'gregbell/active_admin'
 
-
+gem 'passenger'
+gem 'heroku'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
