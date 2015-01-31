@@ -1,0 +1,11 @@
+= @product.description.html_safe
+
+= form_tag controller: 'users', action: 'create' do
+
+  = text_field :user, :email, value: 'email007'  
+  = text_field :order, :link_of_product_on_psy_site, value: "link_of_product_on_psy_site"
+  
+  = submit_tag 'Create'
+  
+
+
